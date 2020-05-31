@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "imgurl":"../components/image/liebiao1.png",
+    "good-text":"新品首发"
+  },
+  {
+    "id": "2",
+    "imgurl":"../components/image/liebiao2.png",
+    "good-text":"居家生活"
+  },
+  {
+    "id": "3",
+    "imgurl":"../components/image/liebiao3.png",
+    "good-text":"服饰鞋包"
+  },
+  {
+    "id": "4",
+    "imgurl":"../components/image/liebiao4.png",
+    "good-text":"美食酒水"
+  },
+  {
+    "id": "5",
+    "imgurl":"../components/image/liebiao5.png",
+    "good-text":"个护清洁"
+  },
+  {
+    "id": "6",
+    "imgurl":"../components/image/liebiao6.png",
+    "good-text":"母婴亲子"
+  },
+  {
+    "id": "7",
+    "imgurl":"../components/image/liebiao7.png",
+    "good-text":"运动旅行"
+  },
+  {
+    "id": "8",
+    "imgurl":"../components/image/liebiao8.png",
+    "good-text":"数码家电"
+  },
+  {
+    "id": "9",
+    "imgurl":"../components/image/liebiao9.png",
+    "good-text":"全球特色"
+  },
+  {
+    "id": "10",
+    "imgurl":"../components/image/liebiao10.png",
+    "good-text":"好货抄底"
+  }
+]

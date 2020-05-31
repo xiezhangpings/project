@@ -1,0 +1,43 @@
+goodsList:[
+  {
+    imgurl:"../components/image/liebiao1.png",
+    goodtext:"新品首发"
+  },
+  {
+    imgurl:"../components/image/liebiao2.png",
+    goodtext:"居家生活"
+  },
+  {
+    imgurl:"../components/image/liebiao3.png",
+    goodtext:"服饰鞋包"
+  },
+  {
+    imgurl:"../components/image/liebiao4.png",
+    goodtext:"美食酒水"
+  },
+  {
+    imgurl:"../components/image/liebiao5.png",
+    goodtext:"个护清洁"
+  },
+  {
+    imgurl:"../components/image/liebiao6.png",
+    goodtext:"母婴亲子"
+  },
+  {
+    imgurl:"../components/image/liebiao7.png",
+    goodtext:"运动旅行"
+  },
+  {
+    imgurl:"../components/image/liebiao8.png",
+    goodtext:"数码家电"
+  },
+  {
+    imgurl:"../components/image/liebiao9.png",
+    goodtext:"全球特色"
+  },
+  {
+
+    imgurl:"../components/image/liebiao10.png",
+    goodtext:"好货抄底"
+  }
+]

@@ -1,14 +1,14 @@
 <template>
-<Header />
+<app />
 </template>
 
 <script>
 // 引入Header组件
-import Header from './components/Header/Header'
+import app from './components/app'
 export default {
   name: 'App',
   components: {
-    Header
+    app
   }
 }
 </script>
