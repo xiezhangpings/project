@@ -3,7 +3,7 @@
     <van-sticky>
       <van-row style="background:#fff">
         <van-col>
-          <img class="logo" src="../assets/image/log.webp" />
+          <img class="logo" src="../../assets/image/log.webp" />
         </van-col>
         <van-col>
           <van-search class="header-search" v-model="input" placeholder="请输入搜索关键词" />
@@ -22,38 +22,38 @@
     <!--轮播图-->
     <van-swipe class="my-swipe" :autoplay="1000" indicator-color="white">
       <van-swipe-item>
-        <img src="../assets/image/1.jpg" />
+        <img src="../../assets/image/1.jpg" />
       </van-swipe-item>
       <van-swipe-item>
-        <img src="../assets/image/2.jpg" />
+        <img src="../../assets/image/2.jpg" />
       </van-swipe-item>
       <van-swipe-item>
-        <img src="../assets/image/3.jpg" />
+        <img src="../../assets/image/3.jpg" />
       </van-swipe-item>
       <van-swipe-item>
-        <img src="../assets/image/4.jpg" />
+        <img src="../../assets/image/4.jpg" />
       </van-swipe-item>
       <van-swipe-item>
-        <img src="../assets/image/5.jpg" />
+        <img src="../../assets/image/5.jpg" />
       </van-swipe-item>
     </van-swipe>
     <!--文字-->
     <van-row class="cenitem">
       <van-col span="8">
         <i class="icon">
-          <img src="../assets/image/ia_100000059.png" />
+          <img src="../../assets/image/ia_100000059.png" />
         </i>
         <span>网易自营品牌</span>
       </van-col>
       <van-col span="8">
         <i class="icon">
-          <img src="../assets/image/ia_100000060.png" />
+          <img src="../../assets/image/ia_100000060.png" />
         </i>
         <span>30天无忧退货</span>
       </van-col>
       <van-col span="8">
         <i class="icon">
-          <img src="../assets/image/ia_100000061.png" />
+          <img src="../../assets/image/ia_100000061.png" />
         </i>
         <span>48小时快速退款</span>
       </van-col>
@@ -106,53 +106,53 @@
 </template>
 <script>
 import axios from 'axios'
-import Tabbars from '../components/Tabbars'
+import Tabbars from '../../components/Tabbars'
 // import BScroll from 'better-scroll'
 export default {
-  name: 'app',
+  name: 'Home',
   data() {
     return {
       input: '',
       navList: '',
       goodsList: [
         {
-          imgurl: require('../assets/image/liebiao1.png'),
+          imgurl: require('../../assets/image/liebiao1.png'),
           goodtext: '新品首发'
         },
         {
-          imgurl: require('../assets/image/liebiao2.png'),
+          imgurl: require('../../assets/image/liebiao2.png'),
           goodtext: '居家生活'
         },
         {
-          imgurl: require('../assets/image/liebiao3.png'),
+          imgurl: require('../../assets/image/liebiao3.png'),
           goodtext: '服饰鞋包'
         },
         {
-          imgurl: require('../assets/image/liebiao4.png'),
+          imgurl: require('../../assets/image/liebiao4.png'),
           goodtext: '美食酒水'
         },
         {
-          imgurl: require('../assets/image/liebiao5.png'),
+          imgurl: require('../../assets/image/liebiao5.png'),
           goodtext: '个护清洁'
         },
         {
-          imgurl: require('../assets/image/liebiao6.png'),
+          imgurl: require('../../assets/image/liebiao6.png'),
           goodtext: '母婴亲子'
         },
         {
-          imgurl: require('../assets/image/liebiao7.png'),
+          imgurl: require('../../assets/image/liebiao7.png'),
           goodtext: '运动旅行'
         },
         {
-          imgurl: require('../assets/image/liebiao8.png'),
+          imgurl: require('../../assets/image/liebiao8.png'),
           goodtext: '数码家电'
         },
         {
-          imgurl: require('../assets/image/liebiao9.png'),
+          imgurl: require('../../assets/image/liebiao9.png'),
           goodtext: '全球特色'
         },
         {
-          imgurl: require('../assets/image/liebiao10.gif'),
+          imgurl: require('../../assets/image/liebiao10.gif'),
           goodtext: '好货抄底'
         }
       ],

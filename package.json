@@ -9,9 +9,11 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
     "better-scroll": "^1.15.2",
     "core-js": "^3.6.5",
     "gulp-postcss": "^8.0.0",
+    "less-loader": "^6.1.0",
     "mockjs": "^1.1.0",
     "nprogress": "^0.2.0",
     "postcss-px2rem": "^0.3.0",
