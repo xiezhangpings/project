@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>buy</h1>
   </div>
 </template>
 <script>
